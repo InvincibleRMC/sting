@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "sting"
+version = "1.0.3"
+description = "Library containing boilerplate code for ML applications. Written for CSDS 440"
+authors = ["Robbie Dozier <robbied@case.edu>", "Kennan LeJeune <kennan@case.edu>", "Kyle Pham <kylepham@case.edu>"]
+documentation = "https://cwru-courses.github.io/sting"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+pandas = "^1.3.2"
+python = ">=3.8,<3.12"
+numpy = "^1.21.2"
+
+[tool.poetry.dev-dependencies]
+pdoc3 = "^0.10.0"
+typer = "^0.4.0"
+black = "^21.8b0"
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

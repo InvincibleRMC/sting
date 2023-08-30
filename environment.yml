@@ -1,0 +1,8 @@
+name: sting
+channels:
+  - defaults
+dependencies:
+  - conda-build
+  - numpy
+  - pandas
+  - python>=3.7
